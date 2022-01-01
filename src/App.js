@@ -29,11 +29,6 @@ export default function App() {
     e.preventDefault();
     if (firstName && lastName && email){
       setValid(true);
-      setValues({
-        firstName: "",
-        lastName: "",
-        email: "",
-      })
     }
     setSubmitted(true);
     if (firstName && lastName && email){
