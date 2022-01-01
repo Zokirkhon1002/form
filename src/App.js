@@ -36,7 +36,13 @@ export default function App() {
       })
     }
     setSubmitted(true);
-    
+    if (firstName && lastName && email){
+      setValues({
+        firstName: "",
+        lastName: "",
+        email: "",
+      })
+    }
   };
 
 
